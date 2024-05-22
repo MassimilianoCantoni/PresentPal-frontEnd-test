@@ -17,7 +17,11 @@ var domande = ["Che budget hai a disposizione?", "Il festeggiato è una persona.
           $("#opzione"+(j+1)).text(opzioni[i][j]);
         }
         i=i+1; 
-        
+        if(i==domande.length)
+        {
+          i=0;    
+        }
+
       });
       
       $(".mainApp").fadeIn("slow");
