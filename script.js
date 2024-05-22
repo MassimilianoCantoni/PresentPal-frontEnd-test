@@ -12,7 +12,7 @@ $(document).ready(function(){
       $(".mainApp").fadeOut("slow",function(){
         $("#testoDomanda").text(domande[i]);
         $(".buttonMain").removeClass("buttonMainToggled");
-        for(var j=0;j<3;j++)
+        for(var j=0;j<4;j++)
         {
           $("#opzione"+(j+1)).text(opzioni[i][j]);
         }
