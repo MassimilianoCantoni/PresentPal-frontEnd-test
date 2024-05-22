@@ -1,0 +1,131 @@
+body
+{
+    display: grid;
+    padding: 0;
+    margin: 0;
+    transform: scale(1);
+   transform-origin: 0 0;
+   font-size: 100%;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+@media (orientation: landscape){
+    body
+    {
+        transform: scale(1);
+        transform-origin: 0 0;
+        position:relative;
+        font-size: 30%;
+    }
+}
+
+#wrapper
+{
+    overflow:hidden;
+    position:relative;
+}
+
+.calistoga-regular {
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+
+#fixed-top
+{
+    
+    background-color: white;
+    padding-bottom: 4em;
+    padding-top: 2em;
+    position:fixed;
+    width:100%;
+}
+
+nav 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    
+    
+}
+
+nav div img
+{   
+    width:5em;
+    margin-left:3em;
+    margin-right:3em;
+
+}
+
+#logo
+{
+    width:33em;
+}
+
+div.mainApp
+{
+    place-self: center;
+    margin-top:30em;
+
+ 
+    text-align:center;
+}
+h1
+{
+    font-size:7em;
+    min-width: 100vw;
+}
+
+.buttonMain
+{
+    border: solid 1px black;
+    font-size: 5em;
+    width:80%;
+    border-radius: 120px;
+    margin:auto;
+    background-color: #0C5F45;
+    color:white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: background-color 0.5s ;
+}
+
+.buttonMainToggled
+{
+    background-color: #0c5f4500;
+    color:black;
+
+}
+
+.buttonMain p
+{
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+
+.buttonContainer
+{
+    background: rgb(125,213,94);
+    background: linear-gradient(77deg, rgba(125,213,94,1) 0%, rgba(149,249,162,1) 50%);
+    padding-bottom: 3em;
+    padding-top:1em;
+
+}
+
+.buttonContainer div
+{
+    margin-top:2em;
+    margin-bottom:2em;
+    
+}
