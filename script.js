@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-  var domande = ["Che budget hai a disposizione?", "Harry potter è Pippo Baudo?"];
-  var opzioni = [["€20","€30","€50","Personalizza"],["Certo","Che cosa dici","Non penso","Non saprei"]];
+var domande = ["Che budget hai a disposizione?", "Il festeggiato è una persona...", "Qual'è il suo hobby principale?"];
+  var opzioni = [["€20","€30","€50","Personalizza"],["Energica","Tranquilla","Ansiosa","Non saprei"],["Lo sport","La musica","Il cibo","Non saprei"]];
   var i=0;
 
   $(".buttonMain").click(function(){
